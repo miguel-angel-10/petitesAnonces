@@ -1,8 +1,7 @@
 ## Description du projet ##
 
-- Vous aller devoir créer un site de petites-annonces qui n’utilise pas de logins et de mots de passe
-  pour créer une annonce. Concrètement le site doit afficher les annonces créées et permettre
-  d’ajouter une annonce avec une simple adresse courriel.
+- Vous aller devoir créer un site de petites-annonces qui _n’utilise pas de logins et de mots de passe pour créer une annonce_. Concrètement le site doit afficher les annonces créées et permettre
+  *d’ajouter une annonce avec une simple adresse courriel*.
 - Lors de la création d’une nouvelle annonce par un utilisateur anonyme celui-ci va recevoir un
   courriel permettant de valider son annonce s’il clique sur un lien, dans ce même courriel un autre
   lien lui permettra de modifier son annonce visuellement avant de la valider. Une fois celle-ci
@@ -10,7 +9,7 @@
   aura dans ce même courriel la possibilité de la supprimer. 
 - Vous devez mettre en place des messages de confirmation lors de la validation et lors de la suppression.
 - Vous devez penser à la sécurité de l’application : en effet les nouvelles annonces ne doivent pas
-  être modifiable sans le lien. grâce à un identifiant unique pour chaque annonce qui vous
+  être modifiable sans le lien. grâce à un **_identifiant unique_** pour chaque annonce qui vous
   permettra de la récupérer pour afficher le formulaire de modification.
 - La page _d’accueil doit lister les 10 premières_ annonces du site et permettre d’afficher les suivantes
   10 par 10.
